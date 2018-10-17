@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestInitiatorClass called successfully]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to: 'http://executeautomation.com/demosite/Login.html']]>
+    </line>
+    <line>
+      <![CDATA[Navigated to:'http://executeautomation.com/demosite/Login.html']]>
+    </line>
+    <line>
+      <![CDATA[Url launched logged in succcesfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged in succcesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15104" started-at="2018-10-12T09:37:51Z" finished-at="2018-10-12T09:38:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bc.CucumberOptions.TestRunner@2de8284b]" name="feature" class="com.bc.CucumberOptions.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="15104" started-at="2018-10-12T09:37:51Z" finished-at="2018-10-12T09:38:06Z">
+      <class name="com.bc.CucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.bc.CucumberOptions.TestRunner@2de8284b]" name="setUpClass" is-config="true" duration-ms="515" started-at="2018-10-12T09:37:51Z" finished-at="2018-10-12T09:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bc.CucumberOptions.TestRunner@2de8284b]" name="feature" duration-ms="14180" started-at="2018-10-12T09:37:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-12T09:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Execute Automation test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestInitiatorClass called successfully]]>
+            </line>
+            <line>
+              <![CDATA[Before navigating to: 'http://executeautomation.com/demosite/Login.html']]>
+            </line>
+            <line>
+              <![CDATA[Navigated to:'http://executeautomation.com/demosite/Login.html']]>
+            </line>
+            <line>
+              <![CDATA[Url launched logged in succcesfully]]>
+            </line>
+            <line>
+              <![CDATA[User logged in succcesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.bc.CucumberOptions.TestRunner@2de8284b]" name="tearDownClass" is-config="true" duration-ms="203" started-at="2018-10-12T09:38:06Z" finished-at="2018-10-12T09:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.bc.CucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

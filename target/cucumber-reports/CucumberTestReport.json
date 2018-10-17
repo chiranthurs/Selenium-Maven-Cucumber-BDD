@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 255627100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks._setupEnvironment()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Test Execute automation login",
+        "description": "",
+        "id": "execute-automation-test;test-execute-automation-login",
+        "after": [
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10778250200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on execute automation login page",
+            "match": {
+              "location": "ExecuteAutomationSteps.user_is_on_execute_automation_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2324858800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User login to application with username \"Admin\" and password \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 41
+                },
+                {
+                  "val": "Admin",
+                  "offset": 62
+                }
+              ],
+              "location": "ExecuteAutomationSteps.user_login_to_application_with_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Execute Automation test",
+    "description": "",
+    "id": "execute-automation-test",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

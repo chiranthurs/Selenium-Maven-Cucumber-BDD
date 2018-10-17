@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestInitiatorClass called successfully]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to: 'http://executeautomation.com/demosite/Login.html']]>
+    </line>
+    <line>
+      <![CDATA[Navigated to:'http://executeautomation.com/demosite/Login.html']]>
+    </line>
+    <line>
+      <![CDATA[Url launched logged in succcesfully]]>
+    </line>
+    <line>
+      <![CDATA[User logged in succcesfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="91" started-at="2018-10-17T05:26:36Z" finished-at="2018-10-17T05:26:36Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="91" started-at="2018-10-17T05:26:36Z" finished-at="2018-10-17T05:26:36Z">
+      <class name="Cucumber.Automation.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="54" started-at="2018-10-17T05:26:36Z" finished-at="2018-10-17T05:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Cucumber.Automation.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

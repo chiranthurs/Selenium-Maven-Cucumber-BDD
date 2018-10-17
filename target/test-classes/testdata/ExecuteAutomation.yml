@@ -1,0 +1,21 @@
+selenium:
+    browser: chrome
+    server: local
+    remote:
+        host: http://10.60.221.222:9898/wd/hub
+        port: 4444
+    driverpath: "./src/test/resources/seleniumdriver/"
+    timeout: 60
+
+testenv: qa
+executeAutomationUrl: http://executeautomation.com/demosite/Login.html
+facebookUrl: http://productplan.sit.hm.com/
+##########################################################################################
+#
+#******* Testdata for ExecuteAutomation*******
+#
+########################################################################################## 
+
+loginInfo:
+    username: Admin
+    password: Admin
